@@ -55,7 +55,12 @@ export default function ZTNALanding() {
           </p>
           
           <div className="flex gap-4 justify-center flex-wrap">
-            <Button variant="cyber" size="lg" className="shadow-glow-primary">
+            <Button 
+              variant="cyber" 
+              size="lg" 
+              className="shadow-glow-primary"
+              onClick={() => window.location.href = '/simulator'}
+            >
               Start Simulation
               <ArrowRight className="w-5 h-5" />
             </Button>
@@ -165,7 +170,12 @@ export default function ZTNALanding() {
             Start your journey into Zero Trust Network Access with our interactive simulator. 
             Learn, practice, and understand the future of cybersecurity.
           </p>
-          <Button variant="cyber" size="lg" className="shadow-glow-primary">
+          <Button 
+            variant="cyber" 
+            size="lg" 
+            className="shadow-glow-primary"
+            onClick={() => window.location.href = '/simulator'}
+          >
             Launch ZTNA Simulator
             <Shield className="w-5 h-5" />
           </Button>
